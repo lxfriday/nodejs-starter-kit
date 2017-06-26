@@ -4,8 +4,9 @@
   "description": "nodeJS server side code starter kit",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js",
-    "build": "babel src -d lib"
+    "debug": "node app.js",
+    "build": "babel src -d lib",
+    "start": "node ./lib/index.js"
   },
   "author": "lxfriday",
   "license": "ISC",
