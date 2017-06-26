@@ -1,0 +1,22 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "node": true
+  },
+  "extends": "airbnb",
+  "plugins": [
+    "jsx-a11y",
+    "import",
+    "babel",
+    "react"
+  ],
+  "ecmaFeatures": {
+    "es6": true,
+    "jsx": true
+  },
+  "rules": {
+    "babel/semi": [2, "always"],
+    "semi": [2, "always"],
+    "func-names": 0
+  }
+}
